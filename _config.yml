@@ -1,5 +1,5 @@
-title:            Ray's Blog
-description:      소소한 개발 블로그
+title:            Ray
+description:      Software Engineer
 disqus_shortname:
 reading_time:     true
 words_per_minute: 200
@@ -15,7 +15,7 @@ owner:
   email:          coooldh@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook:
+  facebook: https://www.facebook.com/doohwan.yoo.5
   github:
   stackexchange:
   linkedin:
