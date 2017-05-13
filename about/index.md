@@ -11,7 +11,7 @@ modified: 2016-02-01
 # About
 Born in 1980. multiple startup experience. love love coding and research new tech.
 # Skill
-`elk stack``spring & springboot``nodejs``Django``mysql``oracle``s3`,`ec2`,`elastic transcoder``dynamodb``redis``mongo``sharding``replication``cluster``haproxy``cloudfront``java``c++``javascript``angular2``css``etc`
+`elk stack``docker``spring & springboot``nodejs``Django``mysql``oracle``s3`,`ec2`,`elastic transcoder``dynamodb``redis``mongo``sharding``replication``cluster``haproxy``cloudfront``java``c++``javascript``angular2``css``etc`
 # Career
 * 블렌딩 - Lead Engineer
 * 견적의신 - CTO
