@@ -38,8 +38,18 @@ Auto Import 기능을 활성화 시키고 각 소스셋마다 모듈화 시키�
 <img src="../images/springboot-6.png">
 기본적으로 위와 같은 계층의 프로젝트가 생성이 되었다. 선택되어있는 application.properties 는 기존의 스프링에서 괴롭게 했던 xml 설정들을 많은 부분 대체 시켜주는 역할을 한다. 필자는 properties 보다는 최근에 각광받고 있는 yalm 설정을 선호함으로 application.properties 를 삭제하고 application.yml 로 파일을 대체하도록 하겠다.
 
-<img src="../images/springboot-7.png">
-여기까지 왔다면 이제 시작할 준비가 된 것이다. `SpringBootApplication` 어노테이션이 자동으로 여러분의 설정들이 잘 세팅되도록 도와준다. `ComponentScan` 의 경우는 이전 스프링에서 basepackage 를 스캔할 수 있도록 XML 에서 설정하였던 것과 동일 한 역할을 한다.
+```java
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+}
+
+```
+여기까지 왔다면 이제 시작할 준비가 된 것이다.
+DemoApplication.java 를 한번 살펴보자 `SpringBootApplication` 어노테이션이 자동으로 여러분의 설정들이 잘 세팅되도록 도와준다. `ComponentScan` 의 경우는 이전 스프링에서 basepackage 를 스캔할 수 있도록 XML 에서 설정하였던 것과 동일 한 역할을 한다.
 
 추가적으로 intellij에서 현프로젝트가 스프링 프로젝트 인 것을 인식할 수 있도록 모듈 설정 (맥의 경우 `command+;`)를 눌러 Module 에서 아래와 같이 Spring 을 추가해 주도록 한다
 
@@ -47,7 +57,23 @@ Auto Import 기능을 활성화 시키고 각 소스셋마다 모듈화 시키�
 
 자 이제 간단한 restapi를 하나 만들어 보도록 하자.
 
-<img src="../images/springboot-9.png">
+```java
+@SpringBootApplication
+@ComponentScan(basePackages = "com.example.demo")
+@RestController
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public @ResponseBody String test() {
+		return "hello world";
+	}
+}
+
+```
 
 상단에 `@RestController` 의 선언과 하단의 `@RequestMapping` 선언을 통해 Hello world 를 보내주는 예제를 만들었다.
 
