@@ -4,6 +4,13 @@ title: "Springboot 시작하기[1] - 기초 설정"
 description: "Springboot 에서 JPA와 하이버네이트를 사용하는 법을 배웁니다"
 tags: [springboot, intellij, springboot start, 스프링부트]
 ---
+#### 관련글 전체 보기
+Springboot 시작하기[1] - 기초 설정
+
+[Springboot 시작하기[2] - 뷰를 연결하자 <thymeleaf, jsp>](https://doohwan-yoo.github.io/start-springboot-2/)
+
+[Springboot에서 MyBatis 연동하기](https://doohwan-yoo.github.io/springboot-mybatis/)
+
 ### Springboot!!!
 수 많은 XML 에서의 해방! Annotation 만으로의 간편한 설정! Spring 3.x 을 사용하다가 Springboot 를 처음 접했을 때 신선한 충격 그 자체였다. (현재는 여전히 버전업 이슈에 따른 고통들이 남아있지만..) Node.js와 Django에 비해 초심자들에게 접근하기 어려웠던 부분을 많이 해결 한 것을 보고 역시 기술은 정체되지 않는구나를 다시한번 깨닫게 해줬다.
 
@@ -50,4 +57,4 @@ Auto Import 기능을 활성화 시키고 각 소스셋마다 모듈화 시키�
 
 어떠한가? 설정의 꼬임이 없다면 Node.js 에서 Express 를 사용하여 api 하나 만드는 것과 다르지 않는 빠른 속도를 보여준다. 이전의 Spring 이였다면 어떠했을 지는 이제는 상상도 하기 어렵다.
 
-다음에는 springboot를 사용하여 페이지를 생성하여 연결하는 부분을 살펴보도록 하겠다 
+다음에는 springboot를 사용하여 페이지를 생성하여 연결하는 부분을 살펴보도록 하겠다

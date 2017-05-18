@@ -4,8 +4,13 @@ title: "Springboot 시작하기[2] - 뷰를 연결하자 <thymeleaf, jsp>"
 description: "Springboot로 웹페이지 연결하기"
 tags: [springboot, jsp, thymeleaf, 스프링부트]
 ---
-#### 이전글 보기
+#### 관련글 전체 보기
 [Springboot 시작하기[1] - 기초 설정](https://doohwan-yoo.github.io/start-springboot-1/)
+
+Springboot 시작하기[2] - 뷰를 연결하자 <thymeleaf, jsp>
+
+[Springboot에서 MyBatis 연동하기](https://doohwan-yoo.github.io/springboot-mybatis/)
+
 
 ### 뷰를 연결해보자
 Springboot 에서 View 를 연결하는 방법은 다음과 같다.
