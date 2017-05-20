@@ -4,7 +4,7 @@ title: "Springboot에서 MyBatis 연동하기"
 description: "Springboot에서 MyBatis 사용법을 학습한다"
 tags: [springboot, mybatis, 스프링부트, ibatis, database, mysql]
 ---
-#### 이전글 보기
+#### 관련글 전체 보기
 [Springboot 시작하기[1] - 기초 설정](https://doohwan-yoo.github.io/start-springboot-1/)
 
 [Springboot 시작하기[2] - 뷰를 연결하자 <thymeleaf, jsp>](https://doohwan-yoo.github.io/start-springboot-2/)
