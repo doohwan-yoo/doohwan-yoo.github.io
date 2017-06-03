@@ -8,6 +8,9 @@ tags: [springboot, elasticsearch5.x, org.elasticsearch]
 회사에서 새 프로젝트를 하며, Elasticsearch 를 5.X 버전으로 새로 설치를 했다. 그리고 Springboot로 연동을 하려고 하는 도중 기존에 제공하는 spring-data-elasticsearch 와 호환성 문제로 제대로 동작하지 않는 것을 발견하고 5.x대 버전에 spring-data-elasticsearch를 열심히 찾아 보았다.
 없었다.. 문서를 또 검색하고 검색했다. Spring 진영에서 답글이 오고 간것이 보였다. 사용자들이 원성이 자자했다 "5.x버전이 나온지 1년이 지났는데 왜 지원 안해주나요?", "현재까지 아무 소식 없음?". Spring 진영에서 답을 줬다... "우리 이걸 할 사람과 여력이 없어.". 그래서 깔끔하게 포기하고 Elasticsearch 에서 제공해주는 JDBC 라이브러리로 직접 간단한 예제를 만들어 봤다.
 
+해당 소스는 아래 링크에서 문서를 참조하여 만들었다. 부족한 점이 있다면 아래 링크에서 원하는 부분을 찾아서 추가 구현 하시도록!
+[https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html) 
+
 ### 준비하기
 먼저 시작하기에 앞서서 음악을 검색한다고 가정하고 Elasticsearch 에 간단하게 인덱스를 생성하고 데이타를 연동했다.
 
