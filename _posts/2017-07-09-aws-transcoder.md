@@ -64,7 +64,7 @@ aws.config.update({
 });
 ```
 
-기본적으로 aws 서비스에 접근하기 위해서 내 계정에서 생성했다 accessKeyId 와 secretAccessKey 를 지정해 준다.
+기본적으로 aws 서비스에 접근하기 위해서 미리 계정에서 생성했던 accessKeyId 와 secretAccessKey 를 지정해 준다.
 
 이제 작업을 만들기 위해 작업에 필요한 정보들을 생성해 보도록 하겠다.
 
