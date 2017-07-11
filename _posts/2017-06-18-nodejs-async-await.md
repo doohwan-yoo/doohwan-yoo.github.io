@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "nodejs async-await 및 변천사"
+title: "nodejs async-await 변천사 및 예제"
 description: "nodejs 가 콜백 헬을 탈출하기 위해 어떻게 변화해 왔는지 알아본다"
-tags: [nodejs, node.js, async, await, co, promise]
+tags: [nodejs, node.js, async, await, co, promise, async await 예제,]
 ---
 ### 콜백 지옥을 벗어나기 위해서
 nodejs 를 2012년 경 처음 사용한 이후로 0.1x대 버전에서 현재 nodejs 8 버전에 이르기 까지 항상 고민이 되던 것은 어떻게 콜벡 지옥을 벗어날 것이냐 였다. ECMA Script 6 이상이 나오면서 가히 혁신이라고 말할 것들이 나오기 시작했고, 이제 7 이상에서 지원 되는 async-await 을 사용해보고 여전히 다소 불편함은 있지만 콜벡 지옥에서 완전히 벗어났다고 감히 단언하고 싶다. 지금 부터 이 변천사에 대해 간단한 예제와 함께 다뤄보고자 한다.
