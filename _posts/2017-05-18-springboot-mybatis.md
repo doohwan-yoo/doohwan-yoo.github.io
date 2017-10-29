@@ -84,6 +84,12 @@ MyBatis 설정을 위해서 `resources/mybatis-config.xml` 파일을 하나 생�
 </configuration>
 ```
 
+yml 설정에서 다음을 추가하는 것도 잊지 말자
+```yml
+mybatis:
+  config-location: classpath:mybatis-config.xml
+```
+
 typeAliases 아래에 `<package name="com.example.demo.domain"/>` 부분은 MyBatis 에 전달하거나 결과를 받을 Vo 객체가 있을 패키지를 알려준다. 해당 패키지 아래 위치할 class 들은 자동으로 Mybatis 에서 alias 를 만들어 준다.
 
 mappers 아래 `mapper` 부분은 실제 SQL 문을 작성할 xml 이 위치할 곳을 가리킨다. 여기서는 `resource/mapper` 에 폴더를 만들어 해당 파일을 위치시켰다.
